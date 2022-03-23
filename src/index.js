@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FilterableProduct from './FilterableProduct'
+import AddProduct from './components/AddProduct';
+import App from './App';
+
+
+
+function handleProductAdded(){
+
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
